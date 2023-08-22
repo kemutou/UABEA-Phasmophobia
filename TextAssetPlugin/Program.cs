@@ -68,7 +68,7 @@ namespace TextAssetPlugin
             string dir = selectedFolderPaths[0];
 
             List<string> extensions = new List<string>() { "*" };
-            ImportBatch dialog = new ImportBatch(workspace, selection, dir, extensions, false);
+            ImportBatch dialog = new ImportBatch(workspace, selection, dir, extensions);
             List<ImportBatchInfo> batchInfos = await dialog.ShowDialog<List<ImportBatchInfo>>(win);
             foreach (ImportBatchInfo batchInfo in batchInfos)
             {

@@ -1,7 +1,12 @@
+##  <b style="color: red">此插件免费请勿上当受骗</b>
+
+
+
 ### 使用说明
+
 > 1. 打开UABEAvalonia.exe
 > 2. 点击左上角file按钮中的open按钮打开需要替换的恐鬼症资源包（这里推荐直接改sharedassets12.assets，改一个即可全部替换，这里以sharedassets12.assets为例）
-> 3. 将所有Type为Texture2D的选项选中
+> 3. 右上角View的Filter先Deselect all将所有选项取消勾选，然后选中Texture2D然后关闭返回，随意点击窗口内的一行数据按Ctrl A将所有Type为Texture2D的选项选中
 > 4. 点击右下角Plugins按钮
 > 5. 点击Phasmophobia按钮然后点击OK
 > 6. 选择一个放有贴图的文件夹
@@ -13,7 +18,6 @@
 #### 文件夹内的图片命名请按导出方式修改，即第一次使用确保文件名正确，后续就可以不用管了
 > #### 例:
 >         * 2Smashed Screen_Smashed Screen_Emission-sharedassets1.assets-525.png 确保-sharedassets前面的是对的
->         * Female1Icon-resources.assets-512.png 确保-resources
+>         * Female1Icon-resources.assets-512.png 确保-resources前面的是对的
 > #### 即确保 - 前面部分是正确的
-
 

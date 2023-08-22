@@ -40,7 +40,10 @@ namespace UABEAvalonia
         private async void BtnOk_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
         {
             var menuPlugInf = boxPluginList.SelectedItem as UABEAPluginMenuInfo;
-
+            if (menuPlugInf.displayName == "Phasmophobia")
+            {
+                await MessageBoxUtil.ShowDialog(this, "Tips", "此恐鬼症贴图替换插件为开源免费，且此原软件UABEA也为Github热门开源项目，一切收费皆为骗子，请勿上当受骗，有问题可以进QQ群：710134792");
+            }
             if (menuPlugInf == null)
             {
                 Close(false);
