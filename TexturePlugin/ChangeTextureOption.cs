@@ -136,7 +136,7 @@ namespace TexturePlugin
 
             List<string> extensions = new List<string>() { "png", "tga" };
 
-            ImportBatch dialog = new ImportBatch(workspace, selection, dir, extensions, true);
+            ImportBatch dialog = new ImportBatch(workspace, selection, dir, extensions, "Phasmophobia");
             List<ImportBatchInfo> batchInfos = await dialog.ShowDialog<List<ImportBatchInfo>>(win);
             if (batchInfos == null)
             {

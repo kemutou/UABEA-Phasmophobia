@@ -811,7 +811,7 @@ namespace UABEAvalonia
 
             List<string> extensions = new List<string>() { "dat" };
 
-            ImportBatch dialog = new ImportBatch(Workspace, selection, dir, extensions, false);
+            ImportBatch dialog = new ImportBatch(Workspace, selection, dir, extensions);
             List<ImportBatchInfo> batchInfos = await dialog.ShowDialog<List<ImportBatchInfo>>(this);
             if (batchInfos != null)
             {
@@ -888,7 +888,7 @@ namespace UABEAvalonia
             else
                 extensions = new List<string>() { extension };
 
-            ImportBatch dialog = new ImportBatch(Workspace, selection, dir, extensions, false);
+            ImportBatch dialog = new ImportBatch(Workspace, selection, dir, extensions);
             List<ImportBatchInfo> batchInfos = await dialog.ShowDialog<List<ImportBatchInfo>>(this);
             if (batchInfos != null)
             {
