@@ -12,7 +12,7 @@
 
 #### 文件夹内的图片命名请按导出方式修改，即第一次使用确保文件名正确，后续就可以不用管了
 > #### 例:
->         * 2Smashed Screen_Smashed Screen_Emission-sharedassets1.assets-525.png确保-sharedassets前面的是对的
+>         * 2Smashed Screen_Smashed Screen_Emission-sharedassets1.assets-525.png 确保-sharedassets前面的是对的
 >         * Female1Icon-resources.assets-512.png 确保-resources
 > #### 即确保 - 前面部分是正确的
 
